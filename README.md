@@ -13,11 +13,11 @@ Small module to create thumbnails, file will have uniq file name.
   
   -Example
   
-  >>>$thumb = new Thumby(
-  >>>'index.png', 
-  >>>  "Thumby/thumbs/", 
-  >>>  100
-  >>>);
+  >$thumb = new Thumby(
+  >'index.png', 
+  >  "Thumby/thumbs/", 
+  >  100
+  >);
   
   -Description
     >>>$thumb = new Thumby(
