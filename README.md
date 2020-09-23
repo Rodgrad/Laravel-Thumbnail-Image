@@ -13,7 +13,7 @@ Small module to create thumbnails, file will have uniq file name.
   
   -Example
   
-  $thumb = new Thumby(
+  >$thumb = new Thumby(
     'index.png', 
     "Thumby/thumbs/", 
     100
