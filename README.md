@@ -20,6 +20,7 @@ Small module to create thumbnails, file will have uniq file name.
   >);
   
   -Description
+  
     >$thumb = new Thumby(
     >  "Image file name", 
     >  "path where thumbnail will be stored.", 
