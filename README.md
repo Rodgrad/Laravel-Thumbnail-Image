@@ -13,19 +13,19 @@ Small module to create thumbnails, file will have uniq file name.
   
   -Example
   
-  >$thumb = new Thumby(
-  >'index.png', 
-  >  "Thumby/thumbs/", 
-  >  100
-  >);
+  $thumb = new Thumby(
+    'index.png', 
+    "Thumby/thumbs/", 
+    100
+  );
   
   -Description
   
     $thumb = new Thumby(
-    >  "Image file name", 
-    >  "path where thumbnail will be stored.", 
-    >  Integer max size(width and height will be less than.)
-    >);
+      "Image file name", 
+      "path where thumbnail will be stored.", 
+      Integer max size(width and height will be less than.)
+    );
     
     -NOTE!
     If you are using HTML forms or any other data transfer to Thumby module then
