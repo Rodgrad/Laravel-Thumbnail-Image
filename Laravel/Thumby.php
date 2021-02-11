@@ -49,6 +49,8 @@ class Thumby extends Resize{
             Return resource to path directory
         ----------------------------------------------------------------*/
         imagejpeg($thumb, $pathDestinationThumbnail);
+        imagedestroy($thumb);
+
     }
 
 }
