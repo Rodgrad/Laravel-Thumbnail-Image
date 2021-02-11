@@ -1,14 +1,14 @@
 # Laravel and PHP-Thumbnail-Module --Super Easy Thumbnails
-
-Small module to create thumbnails 
+<br/>
+Small module to create thumbnails <br/>
 Formats: PNG, JPEG, GIF, and GD.
 
-
+<br/><br/><br/>
 
 # Laravel Manual
 ## For LARAVEL use only the class from the [ Laravel ] folder
 
-
+<br/>
   Put Thumby.php class into models folder.<br/>
   Then into your eg. models/Post.php add:<br/>
   
@@ -28,7 +28,7 @@ Formats: PNG, JPEG, GIF, and GD.
    -- $request->image is the resource <br/>
    -- "storage/thumbnails/"  is the path to destination folder, by default it is set to lead into the [ Public ] . "your path here".<br/>
    -- 100 is the max size of the thumbnail<br/>
-
+<br/><br/><br/>
     
    
   
