@@ -4,10 +4,9 @@ Small module to create thumbnails
 Formats: PNG, JPEG, GIF, and GD.
 
 
-# Manuals
 
-# Laravel
-# For LARAVEL use only the class from the [ Laravel ] folder
+# Laravel Manual
+## For LARAVEL use only the class from the [ Laravel ] folder
 
 
   Put Thumby.php class into models folder.
@@ -32,8 +31,8 @@ Formats: PNG, JPEG, GIF, and GD.
     
    
   
-# PHP Basic
-# For Bascic PHP use only the class from the [ Thumby ] folder
+# PHP Basic Manual
+## For Bascic PHP use only the class from the [ Thumby ] folder
 
 
   >$thumb = new Thumby(
