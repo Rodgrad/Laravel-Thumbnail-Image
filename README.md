@@ -18,12 +18,18 @@ Formats: PNG, JPEG, GIF, and GD.
   ... and then in some method of controller or models use...
 
   > $thumb = new Thumby(
-      $request->image,                //resource
-      "storage/thumbnails/",          // path to destination folder
-      100                             // Max size of the thumbnail
+      $request->image,                
+      "storage/thumbnails/",          
+      100                             
     );
     
    ...to affect the image.
+ 
+   -- $request->image is the resource
+   -- "storage/thumbnails/"  is the path to destination folder, by default it is set to lead into the [ Public ] . "your path here".
+   -- 100 is the max size of the thumbnail
+
+    
    
   
 # PHP Basic
@@ -31,11 +37,15 @@ Formats: PNG, JPEG, GIF, and GD.
 
 
   >$thumb = new Thumby(
-    'index.png',            // image , may require path if it is in another folder than the script
-    "Thumby/thumbs/",       //destination folder
-    100                     // max size
+    'index.png',           
+    "Thumby/thumbs/",       
+    100                     
   );
-  
+     
+  -- $request->image is the resource image , may require path if it is in another folder than the script
+  -- "Thumby/thumbs/"  is the path to destination folder
+  -- 100 is the max size of the thumbnail
+
     
     -NOTE!
     If you are using HTML forms or any other data transfer to Thumby module then
