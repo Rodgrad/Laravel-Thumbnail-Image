@@ -12,8 +12,8 @@ Formats: PNG, JPEG, GIF, and GD.
   Put Thumby.php class into models folder.<br/>
   Then into your eg. models/Post.php add:<br/>
   
-      > // Insert this in any file where you will use Thumby, like controllers or models, etc.<br/>
-      > use App\Models\Thumby;<br/>    
+   > // Insert this in any file where you will use Thumby, like controllers or models, etc.<br/>
+   > use App\Models\Thumby;<br/>    
   
   ... and then in some method of controller or models use...<br/>
 
