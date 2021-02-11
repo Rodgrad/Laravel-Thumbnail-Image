@@ -9,12 +9,13 @@ Formats: PNG, JPEG, GIF, and GD.
 ## For LARAVEL use only the class from the [ Laravel ] folder
 
 
-  Put Thumby.php class into models folder.
-  Then into your eg. models/Post.php add:
+  Put Thumby.php class into models folder.<br/>
+  Then into your eg. models/Post.php add:<br/>
   
-  > use App\Models\Thumby;    // Insert these in any file where you will use Thumby
+      > // Insert this in any file where you will use Thumby, like controllers or models, etc.<br/>
+      > use App\Models\Thumby;<br/>    
   
-  ... and then in some method of controller or models use...
+  ... and then in some method of controller or models use...<br/>
 
   > $thumb = new Thumby(
       $request->image,                
@@ -22,11 +23,11 @@ Formats: PNG, JPEG, GIF, and GD.
       100                             
     );
     
-   ...to affect the image.
+   ...to affect the image.<br/>
  
-   -- $request->image is the resource
-   -- "storage/thumbnails/"  is the path to destination folder, by default it is set to lead into the [ Public ] . "your path here".
-   -- 100 is the max size of the thumbnail
+   -- $request->image is the resource <br/>
+   -- "storage/thumbnails/"  is the path to destination folder, by default it is set to lead into the [ Public ] . "your path here".<br/>
+   -- 100 is the max size of the thumbnail<br/>
 
     
    
@@ -41,9 +42,9 @@ Formats: PNG, JPEG, GIF, and GD.
     100                     
   );
      
-  -- $request->image is the resource image , may require path if it is in another folder than the script
-  -- "Thumby/thumbs/"  is the path to destination folder
-  -- 100 is the max size of the thumbnail
+  -- $request->image is the resource image , may require path if it is in another folder than the script<br/>
+  -- "Thumby/thumbs/"  is the path to destination folder<br/>
+  -- 100 is the max size of the thumbnail<br/>
 
     
     -NOTE!
