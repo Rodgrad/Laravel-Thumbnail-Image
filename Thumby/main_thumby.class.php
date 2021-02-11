@@ -54,6 +54,8 @@ class Thumby extends Resize{
         ----------------------------------------------------------------*/
         // Create uniq name
         copy($pathDestinationThumbnail, imagejpeg($thumb, $pathDestinationThumbnail));
+        imagedestroy($thumb);
+
     }
 
 }
