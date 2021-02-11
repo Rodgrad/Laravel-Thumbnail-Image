@@ -1,4 +1,4 @@
-# Laravel and PHP-Thumbnail-Module -
+# Laravel and PHP-Thumbnail-Module 
 <br/>
 Small module to create thumbnails super easy.<br/>
 Formats: PNG, JPEG, GIF, and GD.
