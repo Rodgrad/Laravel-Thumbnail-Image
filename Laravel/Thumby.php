@@ -19,9 +19,11 @@ class Thumby extends Resize{
             thumbnails. 
 
             Saving outside  { public } folder
-                Just replace public with desired destination, and add $path.
+                Just replace storage with desired destination, and add $path.
+                In production, best use storage with symbolic links to public for getters.
         */
-        $thumbPath = base_path().'/public/'.$path;
+        $thumbPath = storage_path($path);
+        
 
         $dump = getimagesize($filename);
         list($width, $height) = getimagesize($filename);
@@ -49,8 +51,6 @@ class Thumby extends Resize{
             Return resource to path directory
         ----------------------------------------------------------------*/
         imagejpeg($thumb, $pathDestinationThumbnail);
-        imagedestroy($thumb);
-
     }
 
 }
