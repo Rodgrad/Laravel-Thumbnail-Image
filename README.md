@@ -19,14 +19,15 @@ Formats: PNG, JPEG, GIF, and GD.
 
   > $thumb = new Thumby(
       $request->image,                
-      "storage/thumbnails/",          
+      "app/public/portfolio/thumbnail/",          
       100                             
     );
     
    ...to affect the image.<br/>
  
    -- $request->image is the resource <br/>
-   -- "storage/thumbnails/"  is the path to destination folder, by default it is set to lead into the [ Public ] . "your path here".<br/>
+   -- "app/public/portfolio/thumbnail/"  is the path to destination folder, by default it is set to lead into the [ Storage ] . "your path here".<br/>
+      For production best use Storage, or it could return 405 error.
    -- 100 is the max size of the thumbnail<br/>
 <br/><br/><br/>
     
