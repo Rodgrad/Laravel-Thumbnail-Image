@@ -102,9 +102,6 @@ class Resize{
             case "gif":
                 return imagecreatefromgif($file);
                 break;
-            case "gd":
-                return imagecreatefromgd($file);
-                break;
             default:
                 echo("Failed to create thumbnail from files type.");
                 exit();
